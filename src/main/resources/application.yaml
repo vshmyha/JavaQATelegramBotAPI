@@ -1,0 +1,8 @@
+feign:
+  okhttp:
+    enabled: true
+  client:
+    config:
+      default:
+        loggerLevel: BASIC
+        connectTimeout: 150000
