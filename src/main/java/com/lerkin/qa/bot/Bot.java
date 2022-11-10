@@ -16,8 +16,8 @@ import java.util.regex.Pattern;
 @Component
 public class Bot extends TelegramLongPollingCommandBot {
 
-    private final String TOKEN = "5525568393:AAEIL3wweJvtK9IbOidRrAYQ9NHDbGfAuNE";
-    private final String BOT_USERNAME = "java_interviewer_bot";
+    private final String TOKEN = "token";
+    private final String BOT_USERNAME = "bot user name";
     private static final String TIME_PATTERN = "([01]?[0-9]|2[0-3]):[0-5][0-9]";
 
     public Bot(List<BotCommand> commands) {
